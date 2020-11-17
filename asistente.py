@@ -1,7 +1,6 @@
 from datetime import datetime
 import locale
 locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
-ahora = datetime.now()
 
 
 def calculadora(calculo):
@@ -22,6 +21,8 @@ if __name__ == "__main__":
           '[1] para abrir la calculadora',
           '[2] para abrir el calendario',
           '[3] para abrir el reloj', sep="\n")
+
+    ahora = datetime.now()
     funcionalidad = input('Por favor introduzca la funcionalidad deseada: ')
 
     if funcionalidad == '1':
