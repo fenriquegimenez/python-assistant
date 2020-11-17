@@ -18,10 +18,10 @@ def reloj(ahora):
 
 if __name__ == "__main__":
 
-    print('*** BIENVENIDO A SU ASISTENTE PERSONAL ***')
-    print('[1] para abrir la calculadora')
-    print('[2] para abrir el calendario')
-    print('[3] para abrir el reloj')
+    print('*** BIENVENIDO A SU ASISTENTE PERSONAL ***',
+          '[1] para abrir la calculadora',
+          '[2] para abrir el calendario',
+          '[3] para abrir el reloj', sep="\n")
     funcionalidad = input('Por favor introduzca la funcionalidad deseada: ')
 
     if funcionalidad == '1':
